@@ -1,16 +1,18 @@
 [submodule "external/BIManalyst_g_xy"]
 	path = external/BIManalyst_g_xy
 	url = https://github.com/timmcginley/BIManalyst_g_xy.git
+
 [submodule "external/BIManalyst_g_29"]
 	path = external/BIManalyst_g_29
 	url = https://github.com/JoeS223919/BIManalyst_g_29.git
 	branch = main
-[submodule "external/Advanced-BIM-analyst-group-20"]
-	path = external/Advanced-BIM-analyst-group-20
-	url = https://github.com/ElisaSHansen/Advanced-BIM-analyst-group-20.git
+
+[submodule "external/BIManalyst_g_20"]
+	path = external/BIManalyst_g_20
+	url = https://github.com/ElisaSHansen/BIManalyst_g_20.git
 	branch = main
 
-[submodule "external/BIManalyst-group-23"]
-	path = external/BIManalyst-group-23
-	url = https://github.com/s223903/BIManalyst-group-23.git
+[submodule "external/BIManalyst_g_23"]
+	path = external/BIManalyst_g_23
+	url = https://github.com/s223903/BIManalyst_g_23.git
 	branch = main
