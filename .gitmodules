@@ -10,3 +10,7 @@
 	url = https://github.com/ElisaSHansen/Advanced-BIM-analyst-group-20.git
 	branch = main
 
+[submodule "external/BIManalyst-group-23"]
+	path = external/BIManalyst-group-23
+	url = https://github.com/s223903/BIManalyst-group-23.git
+	branch = main
