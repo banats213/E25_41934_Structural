@@ -20,3 +20,6 @@
 [submodule "BIManalyst_g_24"]
 	path = BIManalyst_g_24
 	url = https://github.com/diegob1212/BIManalyst_g_24
+[submodule "external/BIManalyst_g_24"]
+	path = external/BIManalyst_g_24
+	url = https://github.com/diegob1212/BIManalyst_g_24
