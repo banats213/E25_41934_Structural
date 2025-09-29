@@ -1,13 +1,11 @@
 import ifcopenshell
 
-from external.BIManalyst_g_29.rules import BeamClassifications
-from external.BIManalyst_g_29.rules import doorRule
+from external.BIManalyst_g_29.rules import Dimensions
 
-model = ifcopenshell.open("path/to/ifcfile.ifc")
+model = ifcopenshell.open("models/25-16-D-STR.ifc")
 
-windowResult = BeamClassifications.checkRule(model)
+BeamClassifications = Dimensions.beam_dimensions(model)
 
-doorResult = doorRule.checkRule(model)
+print("Beam result:", BeamClassifications)
 
-print("Window result:", windowResult)
-print("Door result:", doorResult)
+
