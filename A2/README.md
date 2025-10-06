@@ -1,37 +1,55 @@
 <<<<<<< Updated upstream
-# A1 Submission – Forensic BIM
+# A2 Submission – Use Case
 
-## Group Information
-- **Group Number:** Group 22
-- **Focus Area:** Structural analysis of walls in the model `25-08-D-STR.ifc`
+## A2a: About the groups
 
----
-
-## Claim Being Checked
-- **Claim:** The consultant report states, that there are 23 walls in the building used for structural load-bearing.  
-- **Source:** The given claim is found in the report: *D_Report_Team08_STR*, page 16.
+Most groups are relatively new to python coding and GitHub with a few members having more experience.
 
 ---
 
-## Script Description
+## A2b: Identity Claim
 
-### Analysts part for group 22
-The script is called **`count_walls_rule`** and is written in Python using the **ifcopenshell** package to analyze an IFC model.  
+Complete set of scripts will be able to check the following claim:
 
-- It loads every property for the walls, enabling further analysis.  
-- It counts the number of walls on each floor.  
-- Footings with wall properties are excluded from the count.  
-
-This allows verification of whether the model matches the consultant report’s claim of 23 load-bearing walls.
+- **Claim:** For a given building, are structural elements: Beams and collumns, made according to Eurocode requirements? What is the structural capacity of the members and is it sufficient for subjected loading?
 
 ---
-### For Managers
-All groups apart from 1 have been added as submodules. This group has not yet sent a link to be added.  
 
-We have attempted to run through the different scripts made by other groups. For smoother collaboration, the following requirements have been identified:
+## A2c: Use Case
 
-- A dedicated folder should be added in the manager repository where IFC files can be stored and accessed directly by the scripts.  
-- All groups should use **consistent file names** for the building to ensure compatibility across scripts.  
+The claim will be checked by using the multitude of scripts developed by the analyst groups. The scripts will all serve the purpose of analyzing different structural members to then get an overview of the total statics of the building.
+
+The claim relies on information regarding **Dimensions** and **Material** properties, which heavily depends on *gathering* data from the IFC-model using *ifcopenshell*.
+
+The program can be used to check claims mainly in the preliminary design phase regarding **design**.  
+
+---
+
+## A2d: Scope the Use Case
+
+The analyst groups have made scripts that can determine dimensions of structural members **Beams** and **Collumns** and how they comply with Eurocode requirements for beams, collumns and walls.
+
+---
+
+## A2e: Tool Idea
+
+Using the tools from each analyst group, a complete program/tool will be able to verify the load bearing capacity of elements in a given building using data collected via. ifcopenshell.
+
+The program checks structural members **Beams** and **Collumns** for their capacity and compliance with Eurocode requirements. 
+
+---
+
+## A2f: Information Requirements
+
+The program mainly uses geometric information. Dimensions of beams, slabs and columns must be collected, in order to determine compliance with the eurocode and to calculate capacities of elements. 
+
+---
+
+## A2g: Identify Appropriate Software License
+
+GPL-3.0 has been chosen in this course as suitable licensing.
+
+---
 =======
  # BIMmanager group "Structural"
->>>>>>> Stashed changes
+
