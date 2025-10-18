@@ -6,6 +6,7 @@
     </startEvent>
     <task id="Task_1hcentk" name="#1 Building model is loaded via. OpenBim">
       <incoming>Flow_0afe8tt</incoming>
+      <incoming>Flow_0wo8dh5</incoming>
       <outgoing>Flow_04xhala</outgoing>
     </task>
     <task id="Activity_1vztart" name="Beam properties are gathered">
@@ -78,6 +79,10 @@
     <sequenceFlow id="Flow_1dhapsq" sourceRef="Activity_0mtgj9f" targetRef="Activity_1tqbizm" />
     <sequenceFlow id="Flow_1n4w91e" sourceRef="Activity_1tqbizm" targetRef="Activity_1hcj3ag" />
     <sequenceFlow id="Flow_1g2zjkx" sourceRef="Event_0jg2bpv" targetRef="Event_1vkd9dv" />
+    <startEvent id="Event_19svauo" name="Models are gathered in &#34;Models&#34; folder">
+      <outgoing>Flow_0wo8dh5</outgoing>
+    </startEvent>
+    <sequenceFlow id="Flow_0wo8dh5" sourceRef="Event_19svauo" targetRef="Task_1hcentk" />
   </process>
   <bpmndi:BPMNDiagram id="BpmnDiagram_1">
     <bpmndi:BPMNPlane id="BpmnPlane_1" bpmnElement="Process_1">
@@ -161,6 +166,12 @@
           <omgdc:Bounds x="1593" y="84.5" width="84" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_19svauo_di" bpmnElement="Event_19svauo">
+        <omgdc:Bounds x="512" y="372" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="493" y="415" width="74" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_05laica_di" bpmnElement="Flow_05laica">
         <omgdi:waypoint x="212" y="260" />
         <omgdi:waypoint x="295" y="260" />
@@ -169,21 +180,17 @@
         <omgdi:waypoint x="345" y="260" />
         <omgdi:waypoint x="480" y="260" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="BPMNEdge_06v9o5n" bpmnElement="Flow_0e0r4o4">
-        <omgdi:waypoint x="750" y="372" />
-        <omgdi:waypoint x="750" y="300" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_04xhala_di" bpmnElement="Flow_04xhala">
         <omgdi:waypoint x="580" y="260" />
         <omgdi:waypoint x="700" y="260" />
       </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_06v9o5n" bpmnElement="Flow_0e0r4o4">
+        <omgdi:waypoint x="750" y="372" />
+        <omgdi:waypoint x="750" y="300" />
+      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0wn8j5a_di" bpmnElement="Flow_0wn8j5a">
         <omgdi:waypoint x="800" y="260" />
         <omgdi:waypoint x="930" y="260" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_0u9a2oy_di" bpmnElement="Flow_0u9a2oy">
-        <omgdi:waypoint x="1240" y="450" />
-        <omgdi:waypoint x="1240" y="300" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0vl2c0b_di" bpmnElement="Flow_0vl2c0b">
         <omgdi:waypoint x="1290" y="260" />
@@ -192,6 +199,10 @@
       <bpmndi:BPMNEdge id="Flow_16uin4e_di" bpmnElement="Flow_16uin4e">
         <omgdi:waypoint x="1505" y="260" />
         <omgdi:waypoint x="1617" y="260" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1g2zjkx_di" bpmnElement="Flow_1g2zjkx">
+        <omgdi:waypoint x="1635" y="158" />
+        <omgdi:waypoint x="1635" y="242" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_09e6vth_di" bpmnElement="Flow_09e6vth">
         <omgdi:waypoint x="930" y="450" />
@@ -202,6 +213,14 @@
         <omgdi:waypoint x="1031" y="450" />
         <omgdi:waypoint x="980" y="380" />
         <omgdi:waypoint x="980" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1n4w91e_di" bpmnElement="Flow_1n4w91e">
+        <omgdi:waypoint x="1030" y="260" />
+        <omgdi:waypoint x="1190" y="260" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0u9a2oy_di" bpmnElement="Flow_0u9a2oy">
+        <omgdi:waypoint x="1240" y="450" />
+        <omgdi:waypoint x="1240" y="300" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="BPMNEdge_09u8idq" bpmnElement="Flow_1bdsy6i">
         <omgdi:waypoint x="1060" y="602" />
@@ -215,13 +234,9 @@
         <omgdi:waypoint x="900" y="602" />
         <omgdi:waypoint x="900" y="530" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_1n4w91e_di" bpmnElement="Flow_1n4w91e">
-        <omgdi:waypoint x="1030" y="260" />
-        <omgdi:waypoint x="1190" y="260" />
-      </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_1g2zjkx_di" bpmnElement="Flow_1g2zjkx">
-        <omgdi:waypoint x="1635" y="158" />
-        <omgdi:waypoint x="1635" y="242" />
+      <bpmndi:BPMNEdge id="Flow_0wo8dh5_di" bpmnElement="Flow_0wo8dh5">
+        <omgdi:waypoint x="530" y="372" />
+        <omgdi:waypoint x="530" y="300" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
