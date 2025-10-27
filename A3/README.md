@@ -1,53 +1,59 @@
 <<<<<<< Updated upstream
-# A2 Submission – Use Case
+# A3 Submission – Tool
 
-## A2a: About the groups
+## 01 The tool - python script
 
-Most groups are relatively new to python coding and GitHub with a few members having more experience.
-
----
-
-## A2b: Identity Claim
-
-Complete set of scripts will be able to check the following claim:
-
-- **Claim:** For a given building, are structural elements: Beams and collumns, made according to Eurocode requirements? What is the structural capacity of the members and is it sufficient for subjected loading?
+The main.py file will include all relevant functions and scripts from the analyst groups. The goal is for the combined script to smoothly incorporate every analyst script, to work effortsly on a given ifc-model.
 
 ---
 
-## A2c: Use Case
+## 03 Markdown file
 
-The claim will be checked by using the multitude of scripts developed by the analyst groups. The scripts will all serve the purpose of analyzing different structural members to then get an overview of the total statics of the building.
+A markdown file has been added in the A3 folder describing the tool itself and relating it to advanced building design.
+(not done yet)
 
-The claim relies on information regarding **Dimensions** and **Material** properties, which heavily depends on *gathering* data from the IFC-model using *ifcopenshell*.
+Name of file: **A3_structural_tool.md**
 
-The program can be used to check claims mainly in the preliminary design phase regarding **design**.  
-
----
-
-## A2d: Scope the Use Case
-
-The analyst groups have made scripts that can determine dimensions of structural members **Beams** and **Collumns** and how they comply with Eurocode requirements for beams, collumns and walls.
 
 ---
 
-## A2e: Tool Idea
+## An IDS
 
-Using the tools from each analyst group, a complete program/tool will be able to verify the load bearing capacity of elements in a given building using data collected via. ifcopenshell.
+The IDS file is included in the subfolder "rules" in the main repo. (not done yet)
 
-The program checks structural members **Beams** and **Collumns** for their capacity and compliance with Eurocode requirements. 
-
----
-
-## A2f: Information Requirements
-
-The program mainly uses geometric information. Dimensions of beams, slabs and columns must be collected, in order to determine compliance with the eurocode and to calculate capacities of elements. 
 
 ---
 
-## A2g: Identify Appropriate Software License
+## 1. As is BPMN diagram
 
-GPL-3.0 has been chosen in this course as suitable licensing.
+A BPMN diagram describing how the entire structural main-script is working has been added in the A3-folder.
+
+Name of file: **A3_as_is.bpmn**
+
+
+---
+
+## 2. Aim
+
+The aim for the entire structural main.py script is to validate claims made by each analyst group. These analyst group claims are then "generalized" so they can be applied to any given building/scenario. 
+
+The entire main.py script will then take all analyst scripts into account to create a cohesive program, that can take an ifc-file as an input, and then output relevant structural properties.
+
+The aim is to determine the structural capacity of beams and columns and applying loads derived from the floor space on them. The utilization can then be determined. 
+
+Requirements in regard to wall, beam and column dimensions are also investigated.
+
+
+---
+
+## 3. To be BPMN diagram
+
+A BPMN diagram describing how the entire structural main-script is supposed/wished to be working has been added in the A3-folder.
+
+It describes how the different analyst scripts in the end will be working together. (not done entirely yet)
+
+Name of file: **A3_to_be.bpmn**
+
 
 ---
 =======
