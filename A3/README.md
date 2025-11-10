@@ -19,7 +19,11 @@ Name of file: **A3_structural_tool.md**
 
 ## An IDS
 
-The IDS file is included in the subfolder "rules" in the main repo. (not done yet)
+The IDS file is included in the subfolder "rules" in the main repo. It will also be included in the main-folder with the script and model itself. 
+
+The IDS-file is named "script_requirements.ids".
+
+The script checks if the model contains relevant elements (walls, beams etc.) and if they have properties like **dimensions** and **ID**.
 
 
 ---
@@ -54,6 +58,19 @@ It describes how the different analyst scripts in the end will be working togeth
 
 Name of file: **A3_to_be.bpmn**
 
+
+---
+
+## 4. The tool
+
+
+
+
+---
+
+## 5. Output
+
+(to be done)
 
 ---
 =======

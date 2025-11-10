@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids:ids xmlns:ids="https://standards.buildingsmart.org/IDS"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://standards.buildingsmart.org/IDS IDS.xsd"
+         version="1.0"
+         name="Script IFC Requirements"
+         description="Ensures IFC model includes structural elements with key properties for Bonsai + IfcOpenShell scripts.">
+
+  <!-- ========== IFC WALLS ========== -->
+  <ids:specification name="Walls must have key properties">
+    <ids:applicability>
+      <ids:entity name="IfcWall"/>
+    </ids:applicability>
+    <ids:requirement>
+      <ids:attribute name="GlobalId"/>
+      <ids:attribute name="Name"/>
+      <ids:property name="FireResistance"/>
+      <ids:property name="Material"/>
+      <ids:property name="Dimensions"/>
+    </ids:requirement>
+  </ids:specification>
+
+  <!-- ========== IFC FLOORS / SLABS ========== -->
+  <ids:specification name="Floors/Slabs must have key properties">
+    <ids:applicability>
+      <ids:entity name="IfcSlab"/>
+    </ids:applicability>
+    <ids:requirement>
+      <ids:attribute name="GlobalId"/>
+      <ids:attribute name="Name"/>
+      <ids:property name="FireResistance"/>
+      <ids:property name="Material"/>
+      <ids:property name="Dimensions"/>
+    </ids:requirement>
+  </ids:specification>
+
+  <!-- ========== IFC BEAMS ========== -->
+  <ids:specification name="Beams must have key properties">
+    <ids:applicability>
+      <ids:entity name="IfcBeam"/>
+    </ids:applicability>
+    <ids:requirement>
+      <ids:attribute name="GlobalId"/>
+      <ids:attribute name="Name"/>
+      <ids:property name="FireResistance"/>
+      <ids:property name="Material"/>
+      <ids:property name="Dimensions"/>
+    </ids:requirement>
+  </ids:specification>
+
+  <!-- ========== IFC COLUMNS ========== -->
+  <ids:specification name="Columns must have key properties">
+    <ids:applicability>
+      <ids:entity name="IfcColumn"/>
+    </ids:applicability>
+    <ids:requirement>
+      <ids:attribute name="GlobalId"/>
+      <ids:attribute name="Name"/>
+      <ids:property name="FireResistance"/>
+      <ids:property name="Material"/>
+      <ids:property name="Dimensions"/>
+    </ids:requirement>
+  </ids:specification>
+
+</ids:ids>

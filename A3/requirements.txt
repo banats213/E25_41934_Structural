@@ -1,0 +1,6 @@
+## Installs the following packages:
+## run "pip install -r requirements.txt" to install the required packages
+
+ifcopenshell
+ifctester
+bonsai
