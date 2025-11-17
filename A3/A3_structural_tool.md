@@ -13,9 +13,7 @@ flowchart TD
     E -- no --> X --> E
     E -- yes --> F{Licence chosen<br>and justified?}
 
-    G -- no --> X --> F
-    G -- yes --> H[Assignment acceptable]
-
+    F -- no --> X --> F
     F -- yes --> H[Perform tests of main.py script]
 
     H --> Z([End])
