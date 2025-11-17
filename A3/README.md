@@ -5,18 +5,28 @@
 
 The main.py file will include all relevant functions and scripts from the analyst groups. The goal is for the combined script to smoothly incorporate every analyst script, to work effortsly on a given ifc-model.
 
-Analyst scripts included in main.py file:
--   
--   
--   
--   
+Analyst group scripts included in main.py file:
+-   GR20
+-   GR22
+-   GR23
+-   GR24
+-   GR29
+
+
+---
+
+## 02 Model
+
+The ifc-model will be uploaded in the "Final tool" folder together with the main script and other relevant files.
+
 
 ---
 
 ## 03 Markdown file
 
 A markdown file has been added in the A3 folder describing the tool itself and relating it to advanced building design.
-(not done yet)
+
+The file describes the process and stage of the group work and defines further tasks.
 
 Name of file: **A3_structural_tool.md**
 
@@ -31,14 +41,14 @@ The IDS-file is named "script_requirements.ids".
 
 The script checks if the model contains relevant element properties (walls, beams etc.) and if they have properties like **dimensions** and **ID**.
 
+The file creates a report "ids_report.html" in the folder.
+
 
 ---
 
 ## 1. As is BPMN diagram
 
-A BPMN diagram describing how the entire structural main-script is working has been added in the A3-folder.
-
-Use an online viewer or program to see the bpmn-diagram.
+A BPMN diagram describing how the entire structural main-script is working at the moment (10.11.2025) has been added in the A3-folder.
 
 Name of file: **A3_as_is.bpmn**
 
@@ -53,6 +63,9 @@ The entire main.py script will then take all analyst scripts into account to cre
 
 The aim is to determine the structural capacity of beams and columns and applying loads derived from the floor space on them. The utilization can then be determined. 
 
+Analyst scripts will be used in the order: slab -> beam -> column -> report
+                                           wall ->                   report
+
 Requirements in regard to wall, beam and column dimensions are also investigated.
 
 
@@ -61,8 +74,9 @@ Requirements in regard to wall, beam and column dimensions are also investigated
 ## 3. To be BPMN diagram
 
 A BPMN diagram describing how the entire structural main-script is supposed/wished to be working has been added in the A3-folder.
+The diagram is created 17.11.2025 and largely reflects how the script is already working.
 
-It describes how the different analyst scripts in the end will be working together. (not done entirely yet)
+It describes how the different analyst scripts in the end will be working together.
 
 Use an online viewer or program to see the bpmn-diagram.
 
@@ -75,9 +89,9 @@ Name of file: **A3_to_be.bpmn**
 
 Overall, the tool performs a structural analysis of a given building, using ifc-properties like "walls", "beams" and "columns" to determined load and capacity of structural members. 
 
-For the walls, 
+For the walls, the fire resistance requirements for load bearing walls are examined. 
 
-It takes 
+The tool uses ifc-related python packages. The ifc-files is preferebly evalued using blender/bonsai.
 
 
 ---

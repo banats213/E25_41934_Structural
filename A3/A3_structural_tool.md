@@ -16,4 +16,6 @@ flowchart TD
     G -- no --> X --> F
     G -- yes --> H[Assignment acceptable]
 
-    F --> Z([End])
+    F -- yes --> H[Perform tests of main.py script]
+
+    H --> Z([End])
