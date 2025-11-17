@@ -5,6 +5,12 @@
 
 The main.py file will include all relevant functions and scripts from the analyst groups. The goal is for the combined script to smoothly incorporate every analyst script, to work effortsly on a given ifc-model.
 
+Analyst scripts included in main.py file:
+-   
+-   
+-   
+-   
+
 ---
 
 ## 03 Markdown file
@@ -19,11 +25,11 @@ Name of file: **A3_structural_tool.md**
 
 ## An IDS
 
-The IDS file is included in the subfolder "rules" in the main repo. It will also be included in the main-folder with the script and model itself. 
+The IDS file is included in the subfolder "rules" in the main repository. It will also be included in the main-folder with the script and model itself. 
 
 The IDS-file is named "script_requirements.ids".
 
-The script checks if the model contains relevant elements (walls, beams etc.) and if they have properties like **dimensions** and **ID**.
+The script checks if the model contains relevant element properties (walls, beams etc.) and if they have properties like **dimensions** and **ID**.
 
 
 ---
@@ -63,14 +69,22 @@ Name of file: **A3_to_be.bpmn**
 
 ## 4. The tool
 
+Overall, the tool performs a structural analysis of a given building, using ifc-properties like "walls", "beams" and "columns" to determined load and capacity of structural members. 
 
+For the walls, 
+
+It takes 
 
 
 ---
 
 ## 5. Output
 
-(to be done)
+The output of th program is a list/report/sheet of the structural members and their utilization. 
+
+Each structural member will have its own column, and the most utilied member(s) will be shown first.
+
+For walls, fire requirements are shown as "upheld" or "not upheld".
 
 ---
 =======
