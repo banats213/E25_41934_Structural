@@ -38,6 +38,8 @@ The script checks if the model contains relevant element properties (walls, beam
 
 A BPMN diagram describing how the entire structural main-script is working has been added in the A3-folder.
 
+Use an online viewer or program to see the bpmn-diagram.
+
 Name of file: **A3_as_is.bpmn**
 
 
@@ -61,6 +63,8 @@ Requirements in regard to wall, beam and column dimensions are also investigated
 A BPMN diagram describing how the entire structural main-script is supposed/wished to be working has been added in the A3-folder.
 
 It describes how the different analyst scripts in the end will be working together. (not done entirely yet)
+
+Use an online viewer or program to see the bpmn-diagram.
 
 Name of file: **A3_to_be.bpmn**
 
