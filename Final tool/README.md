@@ -25,7 +25,7 @@ IFC-model file: (structural model)
 -   xxx.ifc
 
 Outputs:
--   Structural report.html
+-   structural_report.html
 -   ids_report.html
 
 
