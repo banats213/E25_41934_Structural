@@ -8,6 +8,7 @@ The main.py file will include all relevant functions and scripts from the analys
 Analyst group scripts included in main.py file:
 -   GR20
 -   GR22
+    - This is also our product as analyst, but is a bit unfinished.
 -   GR23
 -   GR24
 -   GR29
