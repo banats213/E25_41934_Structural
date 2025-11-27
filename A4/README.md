@@ -1,5 +1,5 @@
 <<<<<<< Updated upstream
-# A3 Submission – Tool
+# A4 Submission – Teach
 
 ## 01 The tool - python script
 
@@ -109,7 +109,15 @@ In A4, when presenting or teaching our tool, we can:
 This README in `A4/` is therefore both a comparison to external work and a teaching aid for explaining our own A3 tool.
 
 
-(to be done)
+---
+## 5. Manager reflections
+
+- Communication between groups was vital. Everyone should have a common goal.
+- Compatability with every group script
+- Generally communication with groups
+- Github is a good place to be a manager - Just needs some learning to get used to.
+- Keep the overall goal in mind. 
+
 
 ---
 =======
