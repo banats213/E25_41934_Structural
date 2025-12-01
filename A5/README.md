@@ -1,76 +1,49 @@
 <<<<<<< Updated upstream
-# A3 Submission – Tool
+# A5 Submission – Reflection
 
-## 01 The tool - python script
-
-The main.py file will include all relevant functions and scripts from the analyst groups. The goal is for the combined script to smoothly incorporate every analyst script, to work effortsly on a given ifc-model.
+Reflection submission by group 22.
 
 ---
 
-## 03 Markdown file
+## Learning experience
 
-A markdown file has been added in the A3 folder describing the tool itself and relating it to advanced building design.
-(not done yet)
+It was nice learning about all the open source tools that IFC and OpenBIM gives, but as we were manager it was hard finding time learning these. A lot of time was used talking to different groups that didn't show up that often. The Github part could also have more guidance so it wasn't as confusing to use. Github was really nice to learn and when you get the hang of it it makes sense.
+---
 
-Name of file: **A3_structural_tool.md**
-
+## Process of developing tool
+We were managers so it was fun to work with different groups and trying to connect them. We made our own tool and quickly found out a lot of info is missing and data is not as comprehensive as we would have liked in the models. 
 
 ---
 
-## An IDS
-
-The IDS file is included in the subfolder "rules" in the main repo. It will also be included in the main-folder with the script and model itself. 
-
-The IDS-file is named "script_requirements.ids".
-
-The script checks if the model contains relevant elements (walls, beams etc.) and if they have properties like **dimensions** and **ID**.
-
+## Summary of feedback
+We didn't get feedback as we were managers.
 
 ---
 
-## 1. As is BPMN diagram
+## s205810 - Future use of OpenBim
 
-A BPMN diagram describing how the entire structural main-script is working has been added in the A3-folder.
+In my opinion, OpenBim and (in general) use of advanced Bim software is the future, and will ensure fewer mistakes and smoother collaboration between professions and companies. 
 
-Name of file: **A3_as_is.bpmn**
+I think Bim can be super fun and cool. Some of the groups in this course made some incredible scripts in my opinion. With OpenBim and VScode it is also made way easier it seems. 
 
+For my thesis, it could be extremely cool to develop s script itself, but it totally depends on the thesis itself. That being said, developing a script yourself definetely serves a great purpose. 
 
----
-
-## 2. Aim
-
-The aim for the entire structural main.py script is to validate claims made by each analyst group. These analyst group claims are then "generalized" so they can be applied to any given building/scenario. 
-
-The entire main.py script will then take all analyst scripts into account to create a cohesive program, that can take an ifc-file as an input, and then output relevant structural properties.
-
-The aim is to determine the structural capacity of beams and columns and applying loads derived from the floor space on them. The utilization can then be determined. 
-
-Requirements in regard to wall, beam and column dimensions are also investigated.
-
+Getting Bim into other disciplines in construction will definetely have a big impact on the rest of the industry. For example, often "the structural" discipline can be quite "conservative" in the ways of designing and rebuilding. Using Bim effect
 
 ---
 
-## 3. To be BPMN diagram
+## s205810 - Wrap up
 
-A BPMN diagram describing how the entire structural main-script is supposed/wished to be working has been added in the A3-folder.
+The journey has overall been enjoyable and insigthful, learning about git and all the different files (bpmn, markdown, IDS etc.) and how git behaves. 
 
-It describes how the different analyst scripts in the end will be working together. (not done entirely yet)
+The first few weeks were quite confusing and getting into the world of Github and Git was a big leap. That being said, it felt satisfying using and organizing the repository. 
 
-Name of file: **A3_to_be.bpmn**
+- Manager vs analyst
+When looking back, I would probably have chosen not to be a manager, even though it had its own learning objectives. At least I would have made a "combinations" of being a manager and analyst, since being analyst seemed way more fun. Being manager could sometimes be quite repetetive, and the assignments could seem "less influential". Communicating between groups was fine, even though oftentimes some groups were not here. Trying to organize an entire program was in its own way interesting. 
 
+That being said, being manager had its own perks, but being an analyst developing your own very cool script, was in the end way more appealing. That is mainly also why, me and my manager buddy decided to develop a small script, that in fact also served a purpose in our structural group. 
 
----
-
-## 4. The tool
-
-
-
-
----
-
-## 5. Output
-
-(to be done)
+For the future of this course, I would perhaps put less of an emphazis on being manager, or at least make them create a script themselves.
 
 ---
 =======
