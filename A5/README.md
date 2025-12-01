@@ -32,6 +32,12 @@ Getting Bim into other disciplines in construction will definetely have a big im
 
 ---
 
+## s214281 - Future use of OpenBim
+
+I would use OpenBIM in my thesis if it fits the project and actually makes sense to include. I think it’s a flexible and transparent way to work with building data, especially when many people are involved. It also seems helpful for understanding the geometry of a model better, which can make analyses easier and the design clearer to communicate. Overall, it’s a useful tool that I could see myself using if the project calls for it.
+
+---
+
 ## s205810 - Wrap up
 
 The journey has overall been enjoyable and insigthful, learning about git and all the different files (bpmn, markdown, IDS etc.) and how git behaves. 
@@ -44,6 +50,16 @@ When looking back, I would probably have chosen not to be a manager, even though
 That being said, being manager had its own perks, but being an analyst developing your own very cool script, was in the end way more appealing. That is mainly also why, me and my manager buddy decided to develop a small script, that in fact also served a purpose in our structural group. 
 
 For the future of this course, I would perhaps put less of an emphazis on being manager, or at least make them create a script themselves.
+
+---
+
+## s214281 - Wrap up
+
+I have like the course and the different tools it has given me and a deeper understanding of the data structure. I think its a nice course if you really want to dive deep into some part of BIM, but it lacks a bit of the structure.
+
+The whole manager thing was a bit weird, beacause there wasnt really any guidelines in the later half of the course. 
+
+I would would just want to be a analyst if i took the course again.
 
 ---
 =======
