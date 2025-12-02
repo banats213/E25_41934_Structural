@@ -2,9 +2,9 @@
 # A4 Submission – Teach
 
 ## Summary
-Title: Manager group for structural
-Category: Structure inc. Structural Fire Safety
-Description: We are the Manager group so we decided with tim to give a brief overview and a reflection on how to be manager in our A4 assignment.
+- Title: Manager group for structural
+- Category: Structure inc. Structural Fire Safety
+- Description: We are the Manager group so we decided with tim to give a brief overview and a reflection on how to be manager in our A4 assignment.
 
 ## 01 The tool - python script
 
