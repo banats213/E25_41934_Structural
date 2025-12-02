@@ -1,6 +1,11 @@
 <<<<<<< Updated upstream
 # A4 Submission – Teach
 
+## Summary
+Title: Manager group for structural
+Category: Structure inc. Structural Fire Safety
+Description: We are the Manager group so we decided with tim to give a brief overview and a reflection on how to be manager in our A4 assignment.
+
 ## 01 The tool - python script
 
 The main.py file will include all relevant functions and scripts from the analyst groups. The goal is for the combined script to smoothly incorporate every analyst script, to work effortsly on a given ifc-model.
